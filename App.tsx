@@ -5,7 +5,6 @@ import ThirdScreen from './src/components/ThirdScreen';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Text>Open up App.tsx to start working on your app!</Text> */}
       <ThirdScreen/>
       <StatusBar style="auto" />
     </View>

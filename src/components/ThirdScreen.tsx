@@ -58,8 +58,3 @@ const styles = StyleSheet.create({
     }
 })
 export default ThirdScreen;
-
-// hex codes:
-// Background: #242428
-// Text: #FFFFFF
-// Highlights: #FFDD95
