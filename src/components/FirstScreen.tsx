@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, TextInput } from "react-native";
 
-const HomeScreen = () => {
+const FirstScreen = () => {
   const [text1, onChangeText1] = React.useState("");
   const [text2, onChangeText2] = React.useState("");
   const [text3, onChangeText3] = React.useState("");
@@ -14,7 +14,6 @@ const HomeScreen = () => {
           onChangeText={onChangeText1}
           value={text1}
         />
-        <View style={styles.box} />
         <View style={styles.innerSection}>
         <TextInput
           style={styles.input}
@@ -65,4 +64,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HomeScreen;
+export default FirstScreen;
