@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import FirstScreen from './src/components/FirstScreen';
+import ThirdScreen from './src/components/ThirdScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-     <FirstScreen />
+      <ThirdScreen/>
       <StatusBar style="auto" />
     </View>
   );
@@ -14,8 +14,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#242428',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#fff'
   },
 });
