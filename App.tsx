@@ -10,9 +10,9 @@ import SixthScreen from './src/components/SixthScreen';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <FirstScreen/> */}
+      <FirstScreen/>
       {/* <ThirdScreen/> */}
-      <FourthScreen/>
+      {/* <FourthScreen/> */}
       {/* <FifthScreen/> */}
       {/* <SixthScreen/> */}
       <StatusBar style="auto" />

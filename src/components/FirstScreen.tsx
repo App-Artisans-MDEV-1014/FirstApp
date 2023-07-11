@@ -6,7 +6,7 @@ const FirstScreen = () => {
   const [text2, onChangeText2] = React.useState("");
   const [text3, onChangeText3] = React.useState("");
   return (
-    <>
+    <View style={styles.mainContainer}>
       <View style={styles.header} />
       <View style={styles.body}>
         <TextInput
@@ -27,16 +27,23 @@ const FirstScreen = () => {
         />
         </View>
       </View>
-    </>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
+  mainContainer: {
+    flex : 1,
+    backgroundColor: '#242428',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+  },
   header: {
     height: "40%",
     width: "100%",
     borderBottomWidth: 1,
-    borderBottomColor: "#242428",
+    borderBottomColor: "#fff",
   },
   body: {
     height: "60%",
